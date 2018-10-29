@@ -1,0 +1,156 @@
+{
+    "Locations": [
+        {
+            "LocId": 0,
+            "Name": "Madra Rua",
+            "Specials": {
+                "Drinks": null,
+                "Food": null,
+                "Other": null
+            },
+            "Address": {
+                "Physical": null,
+                "Coordinates": null
+            },
+            "Social": {
+                "Facebook": null,
+                "Twitter": null,
+                "Instagram": null,
+                "Pintrest": null
+            }
+        },
+        {
+            "LocId": 1,
+            "Name": "The Mill",
+            "Specials": {
+                "Drinks": null,
+                "Food": null,
+                "Other": null
+            },
+            "Address": {
+                "Physical": null,
+                "Coordinates": null
+            },
+            "Social": {
+                "Facebook": null,
+                "Twitter": null,
+                "Instagram": null,
+                "Pintrest": null
+            }
+        },
+        {
+            "LocId": 2,
+            "Name": "Dig in the Park",
+            "Specials": {
+                "Drinks": null,
+                "Food": null,
+                "Other": null
+            },
+            "Address": {
+                "Physical": null,
+                "Coordinates": null
+            },
+            "Social": {
+                "Facebook": null,
+                "Twitter": null,
+                "Instagram": null,
+                "Pintrest": null
+            }
+        },
+        {
+            "LocId": 3,
+            "Name": "Yobo Cantina",
+            "Specials": {
+                "Drinks": null,
+                "Food": null,
+                "Other": null
+            },
+            "Address": {
+                "Physical": null,
+                "Coordinates": null
+            },
+            "Social": {
+                "Facebook": null,
+                "Twitter": null,
+                "Instagram": null,
+                "Pintrest": null
+            }
+        },
+        {
+            "LocId": 4,
+            "Name": "Stems and Skins",
+            "Specials": {
+                "Drinks": null,
+                "Food": null,
+                "Other": null
+            },
+            "Address": {
+                "Physical": null,
+                "Coordinates": null
+            },
+            "Social": {
+                "Facebook": null,
+                "Twitter": null,
+                "Instagram": null,
+                "Pintrest": null
+            }
+        },
+        {
+            "LocId": 5,
+            "Name": "Accent on Wine",
+            "Specials": {
+                "Drinks": null,
+                "Food": null,
+                "Other": null
+            },
+            "Address": {
+                "Physical": null,
+                "Coordinates": null
+            },
+            "Social": {
+                "Facebook": null,
+                "Twitter": null,
+                "Instagram": null,
+                "Pintrest": null
+            }
+        },
+        {
+            "LocId": 6,
+            "Name": "The Sparrow",
+            "Specials": {
+                "Drinks": null,
+                "Food": null,
+                "Other": null
+            },
+            "Address": {
+                "Physical": null,
+                "Coordinates": null
+            },
+            "Social": {
+                "Facebook": null,
+                "Twitter": null,
+                "Instagram": null,
+                "Pintrest": null
+            }
+        },
+        {
+            "LocId": 7,
+            "Name": "Azul",
+            "Specials": {
+                "Drinks": null,
+                "Food": null,
+                "Other": null
+            },
+            "Address": {
+                "Physical": null,
+                "Coordinates": null
+            },
+            "Social": {
+                "Facebook": null,
+                "Twitter": null,
+                "Instagram": null,
+                "Pintrest": null
+            }
+        }
+    ]
+}

@@ -3,14 +3,20 @@ import { NgModule } from '@angular/core';
 import { AngularSplitModule } from 'angular-split';
 
 import { AppComponent } from './app.component';
-import { HeaderComponentComponent } from './header-component/header-component.component';
-import { BodyComponentComponent } from './body-component/body-component.component';
+import { HeaderComponent } from './header/header.component';
+import { BodyComponent } from './body/body.component';
+import { MapComponent } from './map/map.component';
+import { LocationsComponent } from './locations/locations.component';
+import { LocationComponent } from './location/location.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponentComponent,
-    BodyComponentComponent
+    HeaderComponent,
+    BodyComponent,
+    MapComponent,
+    LocationsComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,
