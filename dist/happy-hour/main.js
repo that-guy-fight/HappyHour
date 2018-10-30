@@ -287,7 +287,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"location-entry\">\n  <div class=\"panel-group\">\n    <div class=\"panel panel-default\">\n      <div class=\"panel-heading\">\n        <div class=\"panel-title\">\n          <i data-toggle=\"collapse\" [attr.href]=\"'#locationId_' + location.LocId\">\n            Location: {{location.Name}}\n          </i>\n        </div>\n      </div>\n      <div [attr.id]=\"'#locationId_' + location.LocId\" class=\"panel-collapse collapse\">\n        {{collapse}}\n        <div class=panel-body>\n          {{location.Name}}'s Info\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"panel-group\">\n  <div class=\"panel panel-default\">\n    <div class=\"panel-heading\">\n      <div class=\"panel-title\">\n        <i data-toggle=\"collapse\" [attr.data-target]=\"'#location_'+location.LocId\" aria-expanded=\"false\" aria-controls=\"collapseExample\">\n          Location: {{location.Name}}\n        </i>\n      </div>\n    </div>\n    <div id=\"{{'location_' + location.LocId}}\" class=\"panel-collapse collapse\">\n      <div class=panel-body>\n        {{location.Name}}'s Info\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -420,7 +420,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  map-component works!\n</p>\n"
+module.exports = "<div style=\"height:100%; width: 100%\">\n    <p>\n        map-component works!\n    </p>\n    <h1>My First Google Map</h1>\n\n    <!-- <div id=\"googleMap2\" style=\"height:400px; width: 400px\">insert map\n\n        <script>\n            function initMap2() {\n                var mapProp2 = {\n                    center: new google.maps.LatLng(32.881534, -79.975643),\n                    zoom: 17,\n                };\n                var map = new google.maps.Map(document.getElementById(\"googleMap2\"), mapProp2);\n            }\n        </script>\n\n        <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAUIh7dUUgDA6YULtqIrllNzPer8TFHInI&callback=initMap2\"></script>\n    </div> -->\n</div>"
 
 /***/ }),
 
@@ -449,6 +449,8 @@ var MapComponent = /** @class */ (function () {
     function MapComponent() {
     }
     MapComponent.prototype.ngOnInit = function () {
+    };
+    MapComponent.prototype.initMap = function () {
     };
     MapComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({

@@ -1,18 +1,15 @@
-<div class="location-entry">
-  <div class="panel-group">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <div class="panel-title">
-          <i data-toggle="collapse" [attr.href]="'#locationId_' + location.LocId">
-            Location: {{location.Name}}
-          </i>
-        </div>
+<div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">
+        <i data-toggle="collapse" [attr.data-target]="'#location_'+location.LocId" aria-expanded="false" aria-controls="collapseExample">
+          Location: {{location.Name}}
+        </i>
       </div>
-      <div [attr.id]="'#locationId_' + location.LocId" class="panel-collapse collapse">
-        {{collapse}}
-        <div class=panel-body>
-          {{location.Name}}'s Info
-        </div>
+    </div>
+    <div id="{{'location_' + location.LocId}}" class="panel-collapse collapse">
+      <div class=panel-body>
+        {{location.Name}}'s Info
       </div>
     </div>
   </div>
