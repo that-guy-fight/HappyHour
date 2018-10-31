@@ -41,7 +41,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div>\n  <div class=\"header-component\">\n    <app-header-component></app-header-component>\n  </div>\n  <div class=\"body-component\">\n    <app-body-component></app-body-component>\n  </div>\n</div>"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div>\n  <div>\n    <div class=\"header-component\">\n      <app-header-component></app-header-component>\n    </div>\n\n    <!-- <div id=\"googleMap2\" style=\"height:400px; width: 400px\"></div>\n    <script>\n      function initMap2() {\n        var mapProp2 = {\n          center: new google.maps.LatLng(32.881534, -79.975643),\n          zoom: 17,\n        };\n        var map = new google.maps.Map(document.getElementById(\"googleMap2\"), mapProp2);\n      }\n    </script> -->\n\n    <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAUIh7dUUgDA6YULtqIrllNzPer8TFHInI&callback=initMap2\"></script>\n\n\n    <div class=\"body-component\">\n      <app-body-component></app-body-component>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -66,6 +66,19 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
     }
+    AppComponent.prototype.ngOnInit = function () {
+        this.getMap();
+    };
+    AppComponent.prototype.getMap = function () {
+        var mapProp = {
+            center: new google.maps.LatLng(23.4866, 80.1066),
+            zoom: 4,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            disableDefaultUI: true,
+            draggable: false
+        };
+        new google.maps.Map(document.getElementById('gmap'), mapProp);
+    };
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-root',
@@ -420,7 +433,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"height:100%; width: 100%\">\n    <p>\n        map-component works!\n    </p>\n    <h1>My First Google Map</h1>\n\n    <!-- <div id=\"googleMap2\" style=\"height:400px; width: 400px\">insert map\n\n        <script>\n            function initMap2() {\n                var mapProp2 = {\n                    center: new google.maps.LatLng(32.881534, -79.975643),\n                    zoom: 17,\n                };\n                var map = new google.maps.Map(document.getElementById(\"googleMap2\"), mapProp2);\n            }\n        </script>\n\n        <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAUIh7dUUgDA6YULtqIrllNzPer8TFHInI&callback=initMap2\"></script>\n    </div> -->\n</div>"
+module.exports = "<div style=\"height:100%; width: 100%\">\n    <div>\n        <div id=\"googleMap2\" style=\"height:400px; width: 400px\"></div>\n        <script>\n            function initMap2() {\n                var mapProp2 = {\n                    center: new google.maps.LatLng(32.881534, -79.975643),\n                    zoom: 17,\n                };\n                var map = new google.maps.Map(document.getElementById(\"googleMap2\"), mapProp2);\n            }\n        </script>\n\n        <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAUIh7dUUgDA6YULtqIrllNzPer8TFHInI&callback=initMap2\"></script>\n    </div>\n</div>"
 
 /***/ }),
 

@@ -44,8 +44,8 @@
 }
 
 .map{
-    height: 400px;
-    width: 400px;
+    height: 65 rem;
+    width: 100%;
 }
 
 .cursor-pointer{
