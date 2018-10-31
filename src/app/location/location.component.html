@@ -1,15 +1,31 @@
 <div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
+  <div class="panel panel-default panel-border">
+    <div class="panel-heading panel-header cursor-pointer">
       <div class="panel-title">
-        <i data-toggle="collapse" [attr.data-target]="'#location_'+location.LocId" aria-expanded="false" aria-controls="collapseExample">
-          Location: {{location.Name}}
-        </i>
+        <div data-toggle="collapse" [attr.data-target]="'#location_'+location.LocId" aria-expanded="false"
+          aria-controls="collapseExample">
+          {{location.Name}}
+        </div>
       </div>
     </div>
-    <div id="{{'location_' + location.LocId}}" class="panel-collapse collapse">
-      <div class=panel-body>
-        {{location.Name}}'s Info
+    <div id="{{'location_' + location.LocId}}" class="panel-collapse panel-body collapse">
+      <div>
+        Specials: INSERT SPECIALS SECTION
+      </div>
+      <div>
+        <p>
+          Address: {{location.Address.Physical.Street}}<br/>
+          {{location.Address.Physical.City}},
+          {{location.Address.Physical.State}}
+          {{location.Address.Physical.Zip}}
+        </p>
+      </div>
+      <div>
+        <a href="{{location.Social.Facebook}}">Facebook</a>
+        <a href="{{location.Social.Twitter}}">Twitter</a>
+        <a href="{{location.Social.Instagram}}">Instagram</a>
+        <a href="{{location.Social.Facebook}}">Facebook</a>
+        <a href="{{location.Social.Website}}">Website</a>
       </div>
     </div>
   </div>

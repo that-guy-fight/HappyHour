@@ -4,31 +4,106 @@
             "LocId": 0,
             "Name": "Madra Rua",
             "Specials": {
-                "Drinks": null,
-                "Food": null,
-                "Other": null
+                "Monday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Tuesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Wednesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Thursday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Friday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Saturday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Sunday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                }
             },
             "Address": {
-                "Physical": null,
-                "Coordinates": null
+                "Physical": {
+                    "Street": "1034 E. Montague Ave",
+                    "City": "North Charleston",
+                    "State": "SC",
+                    "Zip": "29405"
+                },
+                "Coordinates": ""
             },
             "Social": {
-                "Facebook": null,
-                "Twitter": null,
-                "Instagram": null,
-                "Pintrest": null
+                "Facebook": "https://facebook.com/madra1",
+                "Twitter": "https://twitter.com/madraruapc",
+                "Instagram": "https://instagram.com/explore/locations/779467/madra-rua-irish-pub-park-circle",
+                "Pintrest": null,
+                "Website": "http://www.madraruapub.com"
             }
         },
         {
             "LocId": 1,
             "Name": "The Mill",
             "Specials": {
-                "Drinks": null,
-                "Food": null,
-                "Other": null
+                "Monday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Tuesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Wednesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Thursday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Friday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Saturday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Sunday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                }
             },
             "Address": {
-                "Physical": null,
+                "Physical": {
+                    "Street": "1026 E. Montague Ave",
+                    "City": "North Charleston",
+                    "State": "SC",
+                    "Zip": "29405"
+                },
                 "Coordinates": null
             },
             "Social": {
@@ -42,12 +117,49 @@
             "LocId": 2,
             "Name": "Dig in the Park",
             "Specials": {
-                "Drinks": null,
-                "Food": null,
-                "Other": null
+                "Monday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Tuesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Wednesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Thursday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Friday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Saturday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Sunday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                }
             },
             "Address": {
-                "Physical": null,
+                "Physical": {
+                    "Street": "1049 E. Montague Ave",
+                    "City": "North Charleston",
+                    "State": "SC",
+                    "Zip": "29405"
+                },
                 "Coordinates": null
             },
             "Social": {
@@ -61,12 +173,49 @@
             "LocId": 3,
             "Name": "Yobo Cantina",
             "Specials": {
-                "Drinks": null,
-                "Food": null,
-                "Other": null
+                "Monday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Tuesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Wednesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Thursday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Friday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Saturday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Sunday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                }
             },
             "Address": {
-                "Physical": null,
+                "Physical": {
+                    "Street": "1067 E. Montague Ave",
+                    "City": "North Charleston",
+                    "State": "SC",
+                    "Zip": "29405"
+                },
                 "Coordinates": null
             },
             "Social": {
@@ -80,12 +229,49 @@
             "LocId": 4,
             "Name": "Stems and Skins",
             "Specials": {
-                "Drinks": null,
-                "Food": null,
-                "Other": null
+                "Monday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Tuesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Wednesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Thursday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Friday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Saturday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Sunday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                }
             },
             "Address": {
-                "Physical": null,
+                "Physical": {
+                    "Street": "1070 E. Montague Ave",
+                    "City": "North Charleston",
+                    "State": "SC",
+                    "Zip": "29405"
+                },
                 "Coordinates": null
             },
             "Social": {
@@ -99,12 +285,49 @@
             "LocId": 5,
             "Name": "Accent on Wine",
             "Specials": {
-                "Drinks": null,
-                "Food": null,
-                "Other": null
+                "Monday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Tuesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Wednesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Thursday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Friday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Saturday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Sunday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                }
             },
             "Address": {
-                "Physical": null,
+                "Physical": {
+                    "Street": "1056 E. Montague Ave",
+                    "City": "North Charleston",
+                    "State": "SC",
+                    "Zip": "29405"
+                },
                 "Coordinates": null
             },
             "Social": {
@@ -118,12 +341,49 @@
             "LocId": 6,
             "Name": "The Sparrow",
             "Specials": {
-                "Drinks": null,
-                "Food": null,
-                "Other": null
+                "Monday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Tuesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Wednesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Thursday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Friday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Saturday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Sunday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                }
             },
             "Address": {
-                "Physical": null,
+                "Physical": {
+                    "Street": "1078 E. Montague Ave",
+                    "City": "North Charleston",
+                    "State": "SC",
+                    "Zip": "29405"
+                },
                 "Coordinates": null
             },
             "Social": {
@@ -137,12 +397,49 @@
             "LocId": 7,
             "Name": "Azul",
             "Specials": {
-                "Drinks": null,
-                "Food": null,
-                "Other": null
+                "Monday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Tuesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Wednesday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Thursday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Friday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Saturday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                "Sunday": {
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                }
             },
             "Address": {
-                "Physical": null,
+                "Physical": {
+                    "Street": "1078 E. Montague Ave",
+                    "City": "North Charleston",
+                    "State": "SC",
+                    "Zip": "29405"
+                },
                 "Coordinates": null
             },
             "Social": {
