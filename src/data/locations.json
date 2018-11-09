@@ -3,43 +3,50 @@
         {
             "LocId": 0,
             "Name": "Madra Rua",
-            "Specials": {
-                "Monday": {
+            "Specials": [
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Tuesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Wednesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Thursday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Friday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Saturday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Sunday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 }
-            },
+            ],
             "Address": {
                 "Physical": {
                     "Street": "1034 E. Montague Ave",
@@ -47,56 +54,66 @@
                     "State": "SC",
                     "Zip": "29405"
                 },
-                "Coordinates": ""
+                "Coordinates": {
+                    "Lat": "32.881786",
+                    "Lng": "-79.975171"
+                }
             },
+            "Phone": "(843) 554-2522",
             "Social": {
                 "Facebook": "https://facebook.com/madra1",
                 "Twitter": "https://twitter.com/madraruapc",
                 "Instagram": "https://instagram.com/explore/locations/779467/madra-rua-irish-pub-park-circle",
-                "Pintrest": null,
                 "Website": "http://www.madraruapub.com"
             }
         },
         {
             "LocId": 1,
             "Name": "The Mill",
-            "Specials": {
-                "Monday": {
+            "Specials": [
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Tuesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Wednesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Thursday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Friday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Saturday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Sunday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 }
-            },
+            ],
             "Address": {
                 "Physical": {
                     "Street": "1026 E. Montague Ave",
@@ -104,55 +121,66 @@
                     "State": "SC",
                     "Zip": "29405"
                 },
-                "Coordinates": null
+                "Coordinates": {
+                    "Lat": "32.881690",
+                    "Lng": "-79.974924"
+                }
             },
+            "Phone": "(843) 225-2650",
             "Social": {
-                "Facebook": null,
-                "Twitter": null,
+                "Facebook": "https://www.facebook.com/themillparkcircle/",
+                "Twitter": "https://twitter.com/themillpc",
                 "Instagram": null,
-                "Pintrest": null
+                "Website": "http://bookingforthemill.wixsite.com/themill"
             }
         },
         {
             "LocId": 2,
             "Name": "Dig in the Park",
-            "Specials": {
-                "Monday": {
+            "Specials": [
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Tuesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Wednesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Thursday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Friday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Saturday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Sunday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 }
-            },
+            ],
             "Address": {
                 "Physical": {
                     "Street": "1049 E. Montague Ave",
@@ -160,55 +188,66 @@
                     "State": "SC",
                     "Zip": "29405"
                 },
-                "Coordinates": null
+                "Coordinates": {
+                    "Lat": "32.881221",
+                    "Lng": "-79.975904"
+                }
             },
+            "Phone": "(843) 225-5201",
             "Social": {
-                "Facebook": null,
-                "Twitter": null,
-                "Instagram": null,
-                "Pintrest": null
+                "Facebook": "https://www.facebook.com/DanielIslandGrille/",
+                "Twitter": "https://twitter.com/DIGCHS/",
+                "Instagram": "https://www.instagram.com/DIGCHS/",
+                "Website": "http://dighospitality.com/dig-in-the-park/null"
             }
         },
         {
             "LocId": 3,
             "Name": "Yobo Cantina",
-            "Specials": {
-                "Monday": {
+            "Specials": [
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Tuesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Wednesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Thursday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Friday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Saturday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Sunday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 }
-            },
+            ],
             "Address": {
                 "Physical": {
                     "Street": "1067 E. Montague Ave",
@@ -216,55 +255,66 @@
                     "State": "SC",
                     "Zip": "29405"
                 },
-                "Coordinates": null
+                "Coordinates": {
+                    "Lat": "32.881346",
+                    "Lng": "-79.976459"
+                }
             },
+            "Phone": "(843) 203-3381",
             "Social": {
-                "Facebook": null,
-                "Twitter": null,
-                "Instagram": null,
-                "Pintrest": null
+                "Facebook": "https://www.facebook.com/yobocantina/",
+                "Twitter": "https://twitter.com/YoBoCantina",
+                "Instagram": "https://www.instagram.com/yobocantina/?hl=en",
+                "Website": "http://www.yobocantinafresca.com/"
             }
         },
         {
             "LocId": 4,
             "Name": "Stems and Skins",
-            "Specials": {
-                "Monday": {
+            "Specials": [
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Tuesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Wednesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Thursday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Friday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Saturday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Sunday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 }
-            },
+            ],
             "Address": {
                 "Physical": {
                     "Street": "1070 E. Montague Ave",
@@ -272,55 +322,66 @@
                     "State": "SC",
                     "Zip": "29405"
                 },
-                "Coordinates": null
+                "Coordinates": {
+                    "Lat": "32.881695",
+                    "Lng": "-79.976527"
+                }
             },
+            "Phone": "(843) 805-4809",
             "Social": {
-                "Facebook": null,
-                "Twitter": null,
-                "Instagram": null,
-                "Pintrest": null
+                "Facebook": "https://www.facebook.com/stemsandskins/",
+                "Twitter": "https://twitter.com/stemsandskins",
+                "Instagram": "https://www.instagram.com/stemsandskins/",
+                "Website": "https://stemsandskins.com/"
             }
         },
         {
             "LocId": 5,
             "Name": "Accent on Wine",
-            "Specials": {
-                "Monday": {
+            "Specials": [
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Tuesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Wednesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Thursday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Friday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Saturday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Sunday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 }
-            },
+            ],
             "Address": {
                 "Physical": {
                     "Street": "1056 E. Montague Ave",
@@ -328,55 +389,66 @@
                     "State": "SC",
                     "Zip": "29405"
                 },
-                "Coordinates": null
+                "Coordinates": {
+                    "Lat": "32.881695",
+                    "Lng": "-79.976016"
+                }
             },
+            "Phone": "(843) 203-4536",
             "Social": {
-                "Facebook": null,
+                "Facebook": "https://www.facebook.com/AccentParkCircle/",
                 "Twitter": null,
-                "Instagram": null,
-                "Pintrest": null
+                "Instagram": "https://www.instagram.com/accentparkcircle/",
+                "Website": "https://www.accentonwine.com/park-circle"
             }
         },
         {
             "LocId": 6,
             "Name": "The Sparrow",
-            "Specials": {
-                "Monday": {
+            "Specials": [
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Tuesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Wednesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Thursday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Friday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Saturday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Sunday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 }
-            },
+            ],
             "Address": {
                 "Physical": {
                     "Street": "1078 E. Montague Ave",
@@ -384,55 +456,66 @@
                     "State": "SC",
                     "Zip": "29405"
                 },
-                "Coordinates": null
+                "Coordinates": {
+                    "Lat": "32.881973",
+                    "Lng": "-79.976934"
+                }
             },
+            "Phone": "(843) 744-7753",
             "Social": {
-                "Facebook": null,
-                "Twitter": null,
-                "Instagram": null,
-                "Pintrest": null
+                "Facebook": "https://www.facebook.com/thesparrowparkcircle",
+                "Twitter": "https://twitter.com/thesparrowpark1?lang=en",
+                "Instagram": "https://www.instagram.com/thesparrowparkcircle/",
+                "Website": null
             }
         },
         {
             "LocId": 7,
             "Name": "Azul",
-            "Specials": {
-                "Monday": {
+            "Specials": [
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Tuesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Wednesday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Thursday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Friday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Saturday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
-                "Sunday": {
+                {
+                    "Day": "Monday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 }
-            },
+            ],
             "Address": {
                 "Physical": {
                     "Street": "1078 E. Montague Ave",
@@ -440,13 +523,218 @@
                     "State": "SC",
                     "Zip": "29405"
                 },
-                "Coordinates": null
+                "Coordinates": {
+                    "Lat": "32.881705",
+                    "Lng": "-79.976992"
+                }
             },
+            "Phone": "(843) 203-3754",
             "Social": {
                 "Facebook": null,
                 "Twitter": null,
                 "Instagram": null,
-                "Pintrest": null
+                "Website": "http://www.azulmexicanorestaurante.com/"
+            }
+        },
+        {
+            "LocId": 8,
+            "Name": "Fratellos",
+            "Specials": [
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                }
+            ],
+            "Address": {
+                "Physical": {
+                    "Street": "1050 E. Montague Ave",
+                    "City": "North Charleston",
+                    "State": "SC",
+                    "Zip": "29405"
+                },
+                "Coordinates": {
+                    "Lat": "32.881676",
+                    "Lng": "-79.975778"
+                }
+            },
+            "Phone": "(843) 554-5021",
+            "Social": {
+                "Facebook": "https://www.facebook.com/FratellosItalianTavern",
+                "Twitter": "https://twitter.com/FratellosTavern",
+                "Instagram": "https://www.instagram.com/FratellosTavern/?ref=badge",
+                "Website": "http://fratellostavern.com/"
+            }
+        },
+        {
+            "LocId": 9,
+            "Name": "Commonhouse Ale Works",
+            "Specials": [
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                }
+            ],
+            "Address": {
+                "Physical": {
+                    "Street": "4831 O'Hear Ave,",
+                    "City": "North Charleston",
+                    "State": "SC",
+                    "Zip": "29405"
+                },
+                "Coordinates": {
+                    "Lat": "32.882397",
+                    "Lng": "-79.976001"
+                }
+            },
+            "Phone": "(843) 471-1400",
+            "Social": {
+                "Facebook": "https://www.facebook.com/commonhousealeworks",
+                "Twitter": "https://twitter.com/commonhousesc?lang=en",
+                "Instagram": "https://www.instagram.com/commonhousealeworks/",
+                "Website": "http://www.commonhousealeworks.com/"
+            }
+        },
+        {
+            "LocId": 10,
+            "Name": "Lola",
+            "Specials": [
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                },
+                {
+                    "Day": "Monday",
+                    "Drinks": null,
+                    "Food": null,
+                    "Other": null
+                }
+            ],
+            "Address": {
+                "Physical": {
+                    "Street": "4830 O'Hear Ave",
+                    "City": "North Charleston",
+                    "State": "SC",
+                    "Zip": "29405"
+                },
+                "Coordinates": {
+                    "Lat": "32.882402",
+                    "Lng": "-79.975470"
+                }
+            },
+            "Phone": "(843) 990-9416",
+            "Social": {
+                "Facebook": "https://www.facebook.com/Lolaparkcircle/",
+                "Twitter": "https://twitter.com/LoLAparkcircle",
+                "Instagram": "https://insta-stalker.com/profile/lolaparkcircle/",
+                "Website": "https://lolaparkcircle.com/"
             }
         }
     ]
