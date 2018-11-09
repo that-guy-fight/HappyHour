@@ -1,31 +1,47 @@
 <div class="panel-group">
   <div class="panel panel-default panel-border">
-    <div class="panel-heading panel-header cursor-pointer">
+    <div class="panel-heading panel-header cursor-pointer" (click)="setMarker()">
       <div class="panel-title">
-        <div data-toggle="collapse" [attr.data-target]="'#location_'+location.LocId" aria-expanded="false"
-          aria-controls="collapseExample">
-          {{location.Name}}
+        <div data-toggle="collapse" [attr.data-target]="'#location_'+location.locId" aria-expanded="false" [attr.aria-controls]="'collapse_location' + location.locId">
+          {{location.name}}
         </div>
       </div>
     </div>
-    <div id="{{'location_' + location.LocId}}" class="panel-collapse panel-body collapse">
+    <div id="{{'location_' + location.locId}}" class="panel-collapse panel-body collapse">
       <div>
         Specials: INSERT SPECIALS SECTION
       </div>
       <div>
         <p>
-          Address: {{location.Address.Physical.Street}}<br/>
-          {{location.Address.Physical.City}},
-          {{location.Address.Physical.State}}
-          {{location.Address.Physical.Zip}}
+          Address: {{location.address.physicalAddress.street}}
+          <br/> {{location.address.physicalAddress.city}}, {{location.address.physicalAddress.state}} {{location.address.physicalAddress.zip}}
         </p>
       </div>
       <div>
-        <a href="{{location.Social.Facebook}}">Facebook</a>
-        <a href="{{location.Social.Twitter}}">Twitter</a>
-        <a href="{{location.Social.Instagram}}">Instagram</a>
-        <a href="{{location.Social.Facebook}}">Facebook</a>
-        <a href="{{location.Social.Website}}">Website</a>
+        <table style="width:100%">
+          <tr>
+            <td style="width:25%; text-align:center">
+              <a href="{{location.social.facebook}}" target="_blank">
+                <i class="fab fa-facebook-square fa-3x btn-color" placement="top" ngbTooltip="Tooltip on top"></i>
+              </a>
+            </td>
+            <td style="width:25%; text-align:center">
+              <a href="{{location.social.twitter}}" target="_blank">
+                <i class="fab fa-twitter-square fa-3x btn-color"></i>
+              </a>
+            </td>
+            <td style="width:25%; text-align:center">
+              <a href="{{location.social.instagram}}" target="_blank">
+                <i class="fab fa-instagram fa-3x btn-color"></i>
+              </a>
+            </td>
+            <td style="width:25%; text-align:center">
+              <a href="{{location.social.website}}" target="_blank">
+                <i class="fas fa-home fa-3x btn-color"></i>
+              </a>
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
   </div>

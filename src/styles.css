@@ -44,10 +44,14 @@
 }
 
 .map{
-    height: 65 rem;
+    height: 65rem;
     width: 100%;
 }
 
 .cursor-pointer{
     cursor: pointer;
+}
+
+.btn-color {
+    color: rgb(48, 138, 51);
 }
