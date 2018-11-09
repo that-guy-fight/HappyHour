@@ -9,6 +9,8 @@ import { MapComponent } from './map/map.component';
 import { LocationsComponent } from './locations/locations.component';
 import { LocationComponent } from './location/location.component';
 
+import { MessagingService } from './message-service/messaging.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,13 +18,13 @@ import { LocationComponent } from './location/location.component';
     BodyComponent,
     MapComponent,
     LocationsComponent,
-    LocationComponent
+    LocationComponent,
   ],
   imports: [
     BrowserModule,
     AngularSplitModule
   ],
-  providers: [],
+  providers: [MessagingService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
