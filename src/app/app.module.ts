@@ -10,6 +10,7 @@ import { LocationsComponent } from './locations/locations.component';
 import { LocationComponent } from './location/location.component';
 
 import { MessagingService } from './message-service/messaging.service';
+import { SpecialsComponent } from './specials/specials.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MessagingService } from './message-service/messaging.service';
     MapComponent,
     LocationsComponent,
     LocationComponent,
+    SpecialsComponent,
   ],
   imports: [
     BrowserModule,

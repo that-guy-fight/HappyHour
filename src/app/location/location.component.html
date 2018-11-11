@@ -8,15 +8,27 @@
       </div>
     </div>
     <div id="{{'location_' + location.locId}}" class="panel-collapse panel-body collapse">
-      <div>
-        Specials: INSERT SPECIALS SECTION
+      <ul class="nav nav-tabs">
+        <li class="nav-item active">
+          <a class="nav-link" data-toggle="tab" aria-expanded="true" href="{{'#specials' + location.locId}}">Specials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="{{'#info' + location.locId}}">Info</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane container active" style="width: 100%; background-color: #C8E6C9" [attr.id]="'specials' + location.locId">
+          <app-specials-component [location]="location"></app-specials-component>
+        </div>
+        <div class="tab-pane container" style="width: 100%" [attr.id]="'info' + location.locId">
+          <p>
+            Address: {{location.address.physicalAddress.street}}<br/> 
+            {{location.address.physicalAddress.city}}, {{location.address.physicalAddress.state}} {{location.address.physicalAddress.zip}}
+          </p>
+        </div>
       </div>
-      <div>
-        <p>
-          Address: {{location.address.physicalAddress.street}}
-          <br/> {{location.address.physicalAddress.city}}, {{location.address.physicalAddress.state}} {{location.address.physicalAddress.zip}}
-        </p>
-      </div>
+
       <div>
         <table style="width:100%">
           <tr>
