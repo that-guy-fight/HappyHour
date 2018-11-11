@@ -6,45 +6,45 @@
             "Specials": [
                 {
                     "Day": "Monday",
-                    "Drinks": null,
-                    "Food": null,
-                    "Other": null
+                    "Drinks": ["$.50 off pints", "drink special 2"],
+                    "Food": ["food special 1", "food special 2"],
+                    "Other": ["Comedy", "angry waitresses"]
                 },
                 {
-                    "Day": "Monday",
-                    "Drinks": null,
-                    "Food": null,
-                    "Other": null
+                    "Day": "Tuesday",
+                    "Drinks": ["$.50 off pints", "drink special 2"],
+                    "Food": ["food special 1", "food special 2"],
+                    "Other": ["Arm Wrestling", "angry waitresses"]
                 },
                 {
-                    "Day": "Monday",
-                    "Drinks": null,
-                    "Food": null,
-                    "Other": null
+                    "Day": "Wednesday",
+                    "Drinks": ["$.50 off pints", "drink special 2"],
+                    "Food": ["food special 1", "food special 2"],
+                    "Other": ["Open Mic", "angry waitresses"]
                 },
                 {
-                    "Day": "Monday",
-                    "Drinks": null,
-                    "Food": null,
-                    "Other": null
+                    "Day": "Thursday",
+                    "Drinks": ["$.50 off pints", "drink special 2"],
+                    "Food": ["food special 1", "food special 2"],
+                    "Other": ["Jello wrestling", "angry waitresses"]
                 },
                 {
-                    "Day": "Monday",
-                    "Drinks": null,
-                    "Food": null,
-                    "Other": null
+                    "Day": "Friday",
+                    "Drinks": ["$.50 off pints", "drink special 2"],
+                    "Food": ["food special 1", "food special 2"],
+                    "Other": ["Karaoke", "angry waitresses"]
                 },
                 {
-                    "Day": "Monday",
-                    "Drinks": null,
-                    "Food": null,
-                    "Other": null
+                    "Day": "Saturday",
+                    "Drinks": ["$.50 off pints", "drink special 2"],
+                    "Food": ["food special 1", "food special 2"],
+                    "Other": ["Live Nudes", "angry waitresses"]
                 },
                 {
-                    "Day": "Monday",
-                    "Drinks": null,
-                    "Food": null,
-                    "Other": null
+                    "Day": "Sunday",
+                    "Drinks": ["$.50 off pints", "drink special 2"],
+                    "Food": ["food special 1", "food special 2"],
+                    "Other": ["Church Service", "angry waitresses"]
                 }
             ],
             "Address": {
@@ -78,37 +78,37 @@
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Tuesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Wednesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Thursday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Friday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Saturday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Sunday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
@@ -145,37 +145,37 @@
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Tuesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Wednesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Thursday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Friday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Saturday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Sunday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
@@ -212,37 +212,37 @@
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Tuesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Wednesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Thursday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Friday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Saturday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Sunday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
@@ -279,37 +279,37 @@
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Tuesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Wednesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Thursday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Friday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Saturday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Sunday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
@@ -346,37 +346,37 @@
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Tuesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Wednesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Thursday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Friday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Saturday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Sunday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
@@ -413,37 +413,37 @@
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Tuesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Wednesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Thursday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Friday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Saturday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Sunday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
@@ -480,37 +480,37 @@
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Tuesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Wednesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Thursday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Friday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Saturday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Sunday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
@@ -547,37 +547,37 @@
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Tuesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Wednesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Thursday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Friday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Saturday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Sunday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
@@ -614,37 +614,37 @@
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Tuesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Wednesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Thursday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Friday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Saturday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Sunday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
@@ -681,37 +681,37 @@
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Tuesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Wednesday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Thursday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Friday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Saturday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null
                 },
                 {
-                    "Day": "Monday",
+                    "Day": "Sunday",
                     "Drinks": null,
                     "Food": null,
                     "Other": null

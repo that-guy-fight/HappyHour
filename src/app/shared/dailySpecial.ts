@@ -1,14 +1,17 @@
+import { DrinkSpecials } from './drinkSpecials';
+import { FoodSpecials } from './foodSpecials';
+import { OtherSpecials } from './otherSpecials';
 
 export class DailySpecial {
     day: string;
-    drinks: null;
-    food:  null;
-    other: null;
+    drinks: DrinkSpecials;
+    food:  FoodSpecials;
+    other: OtherSpecials;
 
     constructor(special: any) {
         this.day = special.Day;
-        this.drinks = special.Drinks;
-        this.food = special.Food;
-        this.other = special.Other;
+        this.drinks = new DrinkSpecials(special.Drinks);
+        this.food = new FoodSpecials(special.Food);
+        this.other = new OtherSpecials(special.Other);
     }
 }

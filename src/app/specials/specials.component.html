@@ -1,0 +1,29 @@
+<div class="specials-component">
+  <div>
+    <ul class="nav nav-tabs">
+      <li *ngFor="let dailySpecial of location.specials.specialsList; let index = index" class="nav-item" [ngClass]="{'active': index == 0}">
+        <a class="nav-link inner-nav-item" data-toggle="tab" aria-expanded="true" href="{{'#dailyspecial_' + dailySpecial.day + location.locId}}">{{dailySpecial.day}}</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="tab-content">
+    <div *ngFor="let dailySpecial of location.specials.specialsList; let i = index" class="tab-pane inner-container" [ngClass]="{'active': i == 0}"
+      style="width: 100%" [attr.id]="'dailyspecial_' + dailySpecial.day + location.locId">
+      <table>
+        <tr *ngFor="let special of dailySpecial.drinks.specialsList; let j = index">
+          <td>{{j == 0 ? 'Drinks' : ''}}</td>
+          <td>{{special}}</td>
+        </tr>
+        <tr *ngFor="let special of dailySpecial.food.specialsList; let j = index">
+          <td>{{j == 0 ? 'Food' : ''}}</td>
+          <td>{{special}}</td>
+        </tr>
+        <tr *ngFor="let special of dailySpecial.other.specialsList; let j = index">
+          <td>{{j == 0 ? 'Other' : ''}}</td>
+          <td>{{special}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

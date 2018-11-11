@@ -1,7 +1,7 @@
 import { DailySpecial } from './dailySpecial';
 
 export class Specials {
-    specials: DailySpecial[] = new Array();
+    specialsList: DailySpecial[] = new Array();
 
     constructor(specials: any) {
         for (const special of specials) {
@@ -10,6 +10,6 @@ export class Specials {
     }
 
     addSpecial(special: any) {
-        this.specials.push(new DailySpecial(special));
+        this.specialsList.push(new DailySpecial(special));
     }
 }
