@@ -7,31 +7,32 @@ import { Subject } from 'rxjs/Subject';
 })
 export class MessagingService {
 
-  private subject = new Subject<any>();
+  private coordsInfoSubject = new Subject<any>();
+  private markerSubject = new Subject<any>();
 
   constructor() { }
 
-  sendMapInfo(mapInfo: any) {
-    this.subject.next({ mapInfo: mapInfo });
+  sendCoordsInfo(coordsInfo: any) {
+    this.coordsInfoSubject.next(coordsInfo);
   }
 
-  clearMapInfo() {
-    this.subject.next();
+  clearCoordsInfo() {
+    this.coordsInfoSubject.next();
   }
 
-  getMapInfo(): Observable<any> {
-    return this.subject.asObservable();
+  getCoordsInfo(): Observable<any> {
+    return this.coordsInfoSubject.asObservable();
   }
 
-  sendMessage(message: string) {
-    this.subject.next({ text: message });
+  setMarker(marker: any) {
+    this.markerSubject.next(marker);
   }
 
-  clearMessage() {
-    this.subject.next();
+  clearMarker() {
+    this.markerSubject.next();
   }
 
-  getMessage(): Observable<any> {
-    return this.subject.asObservable();
+  getMarker(): Observable<any> {
+    return this.markerSubject.asObservable();
   }
 }

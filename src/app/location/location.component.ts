@@ -1,5 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { Input } from '@angular/core';
+import { Component, OnInit, OnDestroy, Input, ViewChild } from '@angular/core';
 import { Subscription } from 'rxjs/Subscription';
 import { MessagingService } from '../message-service/messaging.service';
 
@@ -10,32 +9,23 @@ import { MessagingService } from '../message-service/messaging.service';
 })
 export class LocationComponent implements OnInit, OnDestroy {
   @Input() location: any;
+  messageService: any;
   message: any;
   subscription: Subscription;
 
-  constructor(private messagingService: MessagingService) {
-    this.subscription = this.messagingService.getMessage().subscribe(
-      message => {
-        this.message = message;
-      });
-  }
+  constructor(private messagingService: MessagingService) { }
 
-  ngOnInit() {
-    const a = this.location;
-   }
+  ngOnInit() { }
 
   setMarker() {
-    const coords = this.location.address.coordinates;
-    this.sendMessage({Lat: coords.lat, lng: coords.Lng});
+    const panel = document.getElementById('location_' + this.location.locId);
+    const isActive = !panel.classList.contains('in');
+    this.messagingService.setMarker({ locId: this.location.locId, isActive: isActive });
   }
 
-  sendMessage(coords: any) {
-    this.messagingService.sendMessage(coords);
-  }
-
-  clearMessage(): void {
+  clearMarker(): void {
     // clear message
-    this.messagingService.clearMessage();
+    this.messagingService.clearMarker();
   }
 
   ngOnDestroy() {

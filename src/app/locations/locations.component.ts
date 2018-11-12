@@ -7,25 +7,32 @@ import { Locations } from '../shared/locations';
   templateUrl: './locations.component.html',
   styleUrls: ['./locations.component.css']
 })
-export class LocationsComponent implements OnInit {
 
+export class LocationsComponent implements OnInit {
   locations: any;
 
   constructor(private messagingService: MessagingService) {
     const json = require('../../data/locations.json').Locations;
     this.locations = new Locations(json);
-    this.sendMapInfo();
   }
 
-  ngOnInit() { }
+  ngOnInit() {
+    this.sendLocationsCoords();
+  }
 
-  sendMapInfo() {
-    const mapInfo = this.prepMapInfo();
-    this.messagingService.sendMapInfo(mapInfo);
+  sendLocationsCoords() {
+    const coordsList = this.prepMapInfo();
+    this.messagingService.sendCoordsInfo(coordsList);
   }
 
   prepMapInfo(): any {
-    // TODO: parse locations.json and make an object to send to the map component
-
+    const coordsList = new Array();
+    for (const location of this.locations.locations) {
+      coordsList.push({
+        locId: location.locId,
+        coords: location.address.coordinates
+      });
+    }
+    return coordsList;
   }
 }

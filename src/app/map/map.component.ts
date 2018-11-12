@@ -12,21 +12,21 @@ declare var google: any;
 
 export class MapComponent implements OnInit, OnDestroy {
   map: any;
-  mapInfo: any;
+  coordsInfo: any[] = new Array();
   message: any;
-  subscription: Subscription;
-  marker: any;
+  markerSubscription: Subscription;
+  coordsInfoSubscription: Subscription;
+  currentMarker: any;
 
   constructor(private messagingService: MessagingService) {
-    this.subscription = this.messagingService.getMapInfo().subscribe(
-      message => {
-        this.mapInfo = message.mapInfo;
+    this.coordsInfoSubscription = this.messagingService.getCoordsInfo().subscribe(
+      coordsInfo => {
+        this.parseCoords(coordsInfo);
       });
 
-    this.subscription = this.messagingService.getMessage().subscribe(
-      message => {
-        const coords = this.parseCoords(message.text);
-        this.setMarker(coords);
+    this.markerSubscription = this.messagingService.getMarker().subscribe(
+      marker => {
+        this.setMarker(marker);
       });
   }
 
@@ -45,29 +45,34 @@ export class MapComponent implements OnInit, OnDestroy {
     this.map = new google.maps.Map(document.getElementById('map'), mapProp);
   }
 
-  setMarker(coords) {
-    this.marker = new google.maps.Marker({
-      position: coords,
-      map: this.map
-    });
+  parseCoords(coordsInfo: any) {
+    for (const c of coordsInfo) {
+      const coord = {
+        locId: c.locId,
+        isActive: false,
+        marker: new google.maps.Marker({
+          position: c.coords,
+          map: null
+        })
+      };
+      this.coordsInfo.push(coord);
+    }
+    const a = this.coordsInfo;
   }
 
-  parseCoords(messageText: any): any {
-    const lat = parseFloat(messageText.Lat);
-    const lng = parseFloat(messageText.Lng);
-    return { lat: lat, lng: lng };
-  }
-
-  sendMessage(): void {
-    this.messagingService.sendMessage('Message from Home Component to App Component!');
-  }
-
-  clearMessage(): void {
-    this.messagingService.clearMessage();
+  setMarker(marker: any) {
+    if (!!this.currentMarker) {
+      this.currentMarker.marker.setMap(null);
+    }
+    if (marker.isActive) {
+      this.currentMarker = this.coordsInfo.filter(c => c.locId === marker.locId)[0];
+      this.currentMarker.marker.setMap(this.map);
+    }
   }
 
   ngOnDestroy() {
-    this.subscription.unsubscribe();
+    this.markerSubscription.unsubscribe();
+    this.coordsInfoSubscription.unsubscribe();
   }
 
 }
