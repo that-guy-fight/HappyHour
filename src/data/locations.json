@@ -8,43 +8,43 @@
                     "Day": "Monday",
                     "Drinks": ["$.50 off pints", "drink special 2"],
                     "Food": ["food special 1", "food special 2"],
-                    "Other": ["Comedy", "angry waitresses"]
+                    "Other": ["Comedy", "busy waitresses"]
                 },
                 {
                     "Day": "Tuesday",
                     "Drinks": ["$.50 off pints", "drink special 2"],
                     "Food": ["food special 1", "food special 2"],
-                    "Other": ["Arm Wrestling", "angry waitresses"]
+                    "Other": ["Arm Wrestling", "friendly waitresses"]
                 },
                 {
                     "Day": "Wednesday",
                     "Drinks": ["$.50 off pints", "drink special 2"],
                     "Food": ["food special 1", "food special 2"],
-                    "Other": ["Open Mic", "angry waitresses"]
+                    "Other": ["Open Mic", "happy waitresses"]
                 },
                 {
                     "Day": "Thursday",
                     "Drinks": ["$.50 off pints", "drink special 2"],
                     "Food": ["food special 1", "food special 2"],
-                    "Other": ["Jello wrestling", "angry waitresses"]
+                    "Other": ["Jello wrestling", "exotic waitresses"]
                 },
                 {
                     "Day": "Friday",
                     "Drinks": ["$.50 off pints", "drink special 2"],
                     "Food": ["food special 1", "food special 2"],
-                    "Other": ["Karaoke", "angry waitresses"]
+                    "Other": ["Karaoke", "fancy waitresses"]
                 },
                 {
                     "Day": "Saturday",
                     "Drinks": ["$.50 off pints", "drink special 2"],
                     "Food": ["food special 1", "food special 2"],
-                    "Other": ["Live Nudes", "angry waitresses"]
+                    "Other": ["Magic Show", "fun waitresses"]
                 },
                 {
                     "Day": "Sunday",
                     "Drinks": ["$.50 off pints", "drink special 2"],
                     "Food": ["food special 1", "food special 2"],
-                    "Other": ["Church Service", "angry waitresses"]
+                    "Other": ["Church Service", "somber waitresses"]
                 }
             ],
             "Address": {
