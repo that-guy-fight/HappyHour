@@ -1,4 +1,4 @@
-import { Specials } from './Specials';
+import { Specials } from './specials';
 import { Address } from './address';
 import { SocialMedia } from './socialMedia';
 
